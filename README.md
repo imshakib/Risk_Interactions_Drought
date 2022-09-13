@@ -1,5 +1,5 @@
 # Risk Interactions
-Coding hypothetical graphs to show how accounting for climate change and uncertainty in drought hazard, and levee effect in drought exposure would impact drought risk pdfs and expected values.
+Coding hypothetical graphs to show how accounting for climate change and uncertainty in drought hazard, and adaptation to drought exposure would impact drought risk pdfs and expected crop yield values.
 Script creates conceptual graphs to show interactions among drought hazard, exposure, and risk.
 The output of this code is stored on Figshare at:
 https://figshare.com/articles/figure/Risk_Interactions_Drought_jpg/21090925
@@ -21,7 +21,7 @@ install.packages("package name")
 For questions, comments, feedback, or any concerns, please email Iman Hosseini-Shakib at ishakib@gmail.com
 
  Authors: Iman Hosseini-Shakib (ishakib@gmail.com)
-		  Atieh Alipour (atieh.aalipour@gmail.com)
+	  Atieh Alipour (atieh.aalipour@gmail.com)
           Klaus Keller (klaus_Keller@dartmouth.edu)
  
  ## Possible Issues:
@@ -32,7 +32,7 @@ For questions, comments, feedback, or any concerns, please email Iman Hosseini-S
  - In case of resource issues when running the code on local machines, you might want to consider using a smaller sample size which is currently 1e6 (nsamp on line 39). Running with an order of magnitude fewer samples (nsamp=1e5) will produce the curves that are not "smooth enough" but the main point of the plot to show the impact of uncertainties on the risk will be there.
   
  ## Copyright 
- Copyright 2022 Iman Hosseini-Shakib and Klaus Keller
+ Copyright 2022 Iman Hosseini-Shakib, Atieh Alipour and Klaus Keller
  This file is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
